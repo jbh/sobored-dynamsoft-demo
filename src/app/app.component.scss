@@ -1,0 +1,27 @@
+#ControlsSidenavContainer {
+  #ControlsSidenav {
+    min-width: 360px;
+    -webkit-box-shadow: -8px 0 5px 12px #888;
+    box-shadow: -8px 0 5px 12px #888;
+    border-bottom: 1px solid #888;
+
+    mat-toolbar {
+      margin-bottom: 20px;
+    }
+
+    .controls {
+      padding: 0 10px;
+      margin-bottom: 20px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    .page-number {
+      line-height: 40px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}
