@@ -1,0 +1,32 @@
+@import './theme.scss';
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-sidenav-content.mat-drawer-content {
+  overflow: hidden;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.flex-justify-between {
+  @extend .full-width;
+  display: flex;
+  justify-content: space-between;
+}
+
+mat-toolbar.compact-toolbar {
+  min-height: 40px;
+
+  .mat-toolbar-row {
+    height: 40px;
+  }
+}
